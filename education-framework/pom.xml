@@ -16,6 +16,9 @@
         该包下是自己封装的依赖组件
     </description>
     <url>https://github.com/jackwu12138/education-online</url>
+    <modules>
+        <module>education-common</module>
+    </modules>
 
     <packaging>pom</packaging>
 </project>
