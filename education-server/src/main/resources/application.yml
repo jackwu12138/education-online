@@ -1,3 +1,25 @@
-server:
-    port: 8888
+spring:
+    mvc:
+        pathmatch:
+            # 解决 SpringFox 与 SpringBoot 2.6.x 不兼容的问题，
+            matching-strategy: ANT_PATH_MATCHER
+    profiles:
+        active: dev
 
+---
+
+education:
+    base:
+        version: 1.0.0
+        base-package: com.github.education
+    swagger:
+        title: education-online
+        description: 基于spring-boot的在线教育项目
+        author: jackwu
+        version: ${education.base.version}
+
+---
+
+logging:
+    level:
+        com.github.education: debug

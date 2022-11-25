@@ -9,3 +9,4 @@ ${AnsiColor.RED}
 ▒▒▒▒▒    ▒▒▒▒▒    ▒▒▒▒▒▒▒       ▒▒▒▒▒▒▒▒▒▒▒    ▒▒▒▒▒▒▒▒     ▒▒▒▒▒▒▒▒▒
 
 ${AnsiColor.GREEN}::Spring Boot::               ${AnsiColor.BLUE}${spring-boot.version}
+${AnsiColor.GREEN}::Education-Online::          ${AnsiColor.BLUE}${education.base.version}

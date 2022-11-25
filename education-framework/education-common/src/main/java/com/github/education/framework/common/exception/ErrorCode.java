@@ -1,6 +1,6 @@
-package com.github.framework.common.exception;
+package com.github.education.framework.common.exception;
 
-import com.github.framework.common.util.exception.ServiceExceptionUtil;
+import com.github.education.framework.common.util.exception.ServiceExceptionUtil;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.github.server;
+package com.github.education.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * @author jackwu
  */
-@SpringBootApplication(scanBasePackages = "com.github.education.module")
+@SuppressWarnings("SpringComponentScan")
+@SpringBootApplication(scanBasePackages = "${education.base.base-package}")
 public class EducationOnlineApplication {
 
     public static void main(String[] args) {

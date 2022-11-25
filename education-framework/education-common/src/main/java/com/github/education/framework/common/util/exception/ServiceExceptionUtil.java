@@ -1,8 +1,8 @@
-package com.github.framework.common.util.exception;
+package com.github.education.framework.common.util.exception;
 
 import cn.hutool.core.util.StrUtil;
-import com.github.framework.common.exception.ErrorCode;
-import com.github.framework.common.exception.ServiceException;
+import com.github.education.framework.common.exception.ErrorCode;
+import com.github.education.framework.common.exception.ServiceException;
 
 /**
  * {@link ServiceException} 工具类

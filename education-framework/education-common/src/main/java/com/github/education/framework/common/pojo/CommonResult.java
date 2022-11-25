@@ -1,11 +1,10 @@
-package com.github.framework.common.pojo;
+package com.github.education.framework.common.pojo;
 
-import com.github.framework.common.exception.ErrorCode;
+import com.github.education.framework.common.exception.ErrorCode;
+import com.github.education.framework.common.exception.constants.GlobalErrorCodeConstants;
 import lombok.Data;
 
 import java.io.Serializable;
-
-import static com.github.framework.common.exception.constants.GlobalErrorCodeConstants.SUCCESS;
 
 /**
  * @author jackwu
@@ -34,16 +33,16 @@ public class CommonResult<T> implements Serializable {
 
     public static <T> CommonResult<T> success() {
         CommonResult<T> result = new CommonResult<>();
-        result.code = SUCCESS.getCode();
-        result.msg = SUCCESS.getMsg();
+        result.code = GlobalErrorCodeConstants.SUCCESS.getCode();
+        result.msg = GlobalErrorCodeConstants.SUCCESS.getMsg();
         return result;
     }
 
     public static <T> CommonResult<T> success(T data) {
         CommonResult<T> result = new CommonResult<>();
-        result.code = SUCCESS.getCode();
+        result.code = GlobalErrorCodeConstants.SUCCESS.getCode();
         result.data = data;
-        result.msg = SUCCESS.getMsg();
+        result.msg = GlobalErrorCodeConstants.SUCCESS.getMsg();
         return result;
     }
 

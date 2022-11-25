@@ -84,6 +84,12 @@
             <!-- ==================== web 相关 ==================== -->
 
             <dependency>
+                <groupId>com.github</groupId>
+                <artifactId>education-spring-boot-starter-web</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
@@ -144,6 +150,14 @@
             </dependency>
 
             <!-- ==================== 工具类相关 ==================== -->
+
+            <dependency>
+                <groupId>com.github</groupId>
+                <artifactId>education-common</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>

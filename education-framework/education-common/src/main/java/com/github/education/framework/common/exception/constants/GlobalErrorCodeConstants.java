@@ -1,6 +1,6 @@
-package com.github.framework.common.exception.constants;
+package com.github.education.framework.common.exception.constants;
 
-import com.github.framework.common.exception.ErrorCode;
+import com.github.education.framework.common.exception.ErrorCode;
 
 /**
  * 全局的通用错误返回码枚举类

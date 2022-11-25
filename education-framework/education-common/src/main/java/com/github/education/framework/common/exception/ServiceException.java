@@ -1,6 +1,6 @@
-package com.github.framework.common.exception;
+package com.github.education.framework.common.exception;
 
-import com.github.framework.common.exception.constants.GlobalErrorCodeConstants;
+import com.github.education.framework.common.exception.constants.GlobalErrorCodeConstants;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

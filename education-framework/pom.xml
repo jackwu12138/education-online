@@ -18,6 +18,7 @@
     <url>https://github.com/jackwu12138/education-online</url>
     <modules>
         <module>education-common</module>
+        <module>education-spring-boot-starter-web</module>
     </modules>
 
     <packaging>pom</packaging>
