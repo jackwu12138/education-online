@@ -126,6 +126,13 @@
             <!-- ==================== 数据库相关 ==================== -->
 
             <dependency>
+                <groupId>com.github</groupId>
+                <artifactId>education-spring-boot-starter-mybatis</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+
+            <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
